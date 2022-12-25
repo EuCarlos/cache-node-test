@@ -9,7 +9,7 @@ class ExpressConfig {
     constructor() {
         this.PORT = process.env.PORT || 8001;
         this.MESSAGE = `Listening on port: ${this.PORT}`;
-        this.URL = process.env.CACHE_URL;
+        this.URL = process.env.CACHE_URL || '';
         this.CACHE_NAME = process.env.CACHE_NAME || 'cache';
     }
 }

@@ -1,5 +1,5 @@
 import NodeCache from "node-cache";
-import express, { Request, response, Response } from "express";
+import express, { Request, Response } from "express";
 import config from './express.config'
 import axios from "axios";
 
